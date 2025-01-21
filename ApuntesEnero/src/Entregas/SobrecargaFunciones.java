@@ -71,3 +71,10 @@ public class SobrecargaFunciones {
         return mediana;
     }   
 }
+
+
+/*
+Commit: Guarda cambios en tu repositorio local.
+Push: Sube esos cambios locales al repositorio remoto.
+Pull: Trae los cambios del repositorio remoto hacia tu repositorio local.
+*/
