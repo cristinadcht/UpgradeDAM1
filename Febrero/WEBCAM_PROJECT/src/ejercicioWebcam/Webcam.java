@@ -68,7 +68,7 @@ public class Webcam {
             int ancho = Integer.parseInt(resolucion.split("x")[0]);
             int alto = Integer.parseInt(resolucion.split("x")[1]);
             tamanioImg = ((ancho * alto * fps)/1000000.0);
-            System.out.println("Se ha hecho una foto con resolución" + resolucion + " y el tamaño estimado del archivo ocupa " + tamanioImg + " MB");
+            System.out.println("Se ha hecho una foto con resolución " + resolucion + " y el tamaño estimado del archivo ocupa " + tamanioImg + " MB");
         } else {
             System.out.println("La webcam está apagada, no se puede tomar una foto");
         }
